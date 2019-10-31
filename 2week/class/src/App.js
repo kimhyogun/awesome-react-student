@@ -1,11 +1,11 @@
-import React, {Component} from "react"
+import React, { Component } from "react"
 
 class App extends Component {
   constructor(props) {
     super(props)
     this.state = {
       //state의 초기값을 설정합니다.
-      savedNotes: [{content: "default1"}, {content: "default2"}]
+      savedNotes: [{ content: "default1" }, { content: "default2" }]
     }
   }
 
@@ -62,6 +62,7 @@ class Note extends Component {
     return (
       <div>
         {content}
+        <p>숙제 시작</p>
       </div>
     )
   }
